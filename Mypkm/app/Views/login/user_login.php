@@ -14,6 +14,12 @@
                     LOGIN TO MYPKM
                 </div>
                 <div class="card-body">
+                    <form action ="" method="POST">
+                        <?php if(session()->getFlashdata('error')) { ?>
+                        <div class ="alert alert-danger">
+                            <?php echo session()->getFlashdata('error')?>
+                        </div>
+                        <?php } ?>
                     <div class="mb-3">
                         <label for="inputUsername" class="form-label">
                             Username
@@ -34,6 +40,7 @@
                         <input type="submit" name="login"
                          class="btn btn-primary" value="LOGIN" />
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
