@@ -24,4 +24,9 @@ class Login extends BaseController
         }
         return view('login/user_login');
     }
+
+    public function registration()
+    {
+       return view('login/user_registration'); 
+    }
 }
