@@ -26,7 +26,7 @@
 
     <div class="container">
 
-        <div class="card o-hidden border-0 shadow-lg my-5 mx-auto">
+        <div class="card o-hidden border-0 shadow-lg my-5 col-lg-7 mx-auto">
             <div class="card-body p-0">
                 <!-- Nested Row within Card Body -->
                 <div class="row">
@@ -36,11 +36,9 @@
                                 <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
                             </div>
                             <form class="user">
-                                <div class="form-group row">
-                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                <div class="form-group">
                                         <input type="text" class="form-control form-control-user" name ="name" id="exampleFirstName"
                                             placeholder="Full Name">
-                                    </div>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control form-control-user" name="idbel" id="exampleInputEmail"
@@ -60,12 +58,6 @@
                                     Register Account
                                 </a>
                                 <hr>
-                                <a href="index.html" class="btn btn-google btn-user btn-block">
-                                    <i class="fab fa-google fa-fw"></i> Register with Google
-                                </a>
-                                <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                                    <i class="fab fa-facebook-f fa-fw"></i> Register with Facebook
-                                </a>
                             </form>
                             <hr>
                             <div class="text-center">
