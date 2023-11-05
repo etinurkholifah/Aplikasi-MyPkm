@@ -5,4 +5,6 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Login::registration');
+
+$routes->get('/', 'Home::index');
+$routes->get('mahasiswa', 'Mahasiswa::index');

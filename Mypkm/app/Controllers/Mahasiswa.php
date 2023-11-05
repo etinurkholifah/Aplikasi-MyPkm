@@ -2,18 +2,24 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
-{
+use CodeIgniter\Controller;
+use App\Models\M_Mahasiswa;
+
+class Mahasiswa extends Controller{
     public function index()
     {
+        $model = new M_Mahasiswa();
+
         $data = [
-            'judul' => 'DASBORD ADMIN'
+            'judul' => 'Data Mahasiswa',
+            'mahasiswa' => $model->getAllData()
         ];
 
         echo view('layoutadmin/layoutheader', $data);
         echo view('layoutadmin/layoutsidebar');
         echo view('layoutadmin/layouttopbar');
-        echo view('home/index');
+        echo view('mahasiswa/index', $data);
         echo view('layoutadmin/layoutfooter');
+
     }
 }
