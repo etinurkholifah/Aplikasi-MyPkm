@@ -4,14 +4,6 @@ namespace Config;
 
 use CodeIgniter\Modules\Modules as BaseModules;
 
-/**
- * Modules Configuration.
- *
- * NOTE: This class is required prior to Autoloader instantiation,
- *       and does not extend BaseConfig.
- *
- * @immutable
- */
 class Modules extends BaseModules
 {
     /**

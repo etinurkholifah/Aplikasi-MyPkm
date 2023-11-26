@@ -135,8 +135,6 @@ class FileCollection
      * of UploadedFile for each one, saving the results to this->files.
      *
      * Called by files(), file(), and hasFile()
-     *
-     * @return void
      */
     protected function populateFiles()
     {
@@ -161,7 +159,7 @@ class FileCollection
      * Given a file array, will create UploadedFile instances. Will
      * loop over an array and create objects for each.
      *
-     * @return UploadedFile|UploadedFile[]
+     * @return array|UploadedFile
      */
     protected function createFileObject(array $array)
     {
@@ -184,8 +182,7 @@ class FileCollection
             $array['name'] ?? null,
             $array['type'] ?? null,
             $array['size'] ?? null,
-            $array['error'] ?? null,
-            $array['full_path'] ?? null
+            $array['error'] ?? null
         );
     }
 
@@ -243,7 +240,7 @@ class FileCollection
      * @param array $index The index sequence we are navigating down
      * @param array $value The portion of the array to process
      *
-     * @return UploadedFile|null
+     * @return mixed
      */
     protected function getValueDotNotationSyntax(array $index, array $value)
     {

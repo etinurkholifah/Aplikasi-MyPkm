@@ -13,9 +13,8 @@ namespace CodeIgniter\Commands\Utilities\Routes;
 
 use CodeIgniter\Exceptions\PageNotFoundException;
 use CodeIgniter\Filters\Filters;
-use CodeIgniter\HTTP\Exceptions\RedirectException;
+use CodeIgniter\Router\Exceptions\RedirectException;
 use CodeIgniter\Router\Router;
-use Config\Feature;
 use Config\Services;
 
 /**
@@ -36,7 +35,7 @@ final class FilterFinder
     {
         $this->router->handle($uri);
 
-        $multipleFiltersEnabled = config(Feature::class)->multipleFilters ?? false;
+        $multipleFiltersEnabled = config('Feature')->multipleFilters ?? false;
         if (! $multipleFiltersEnabled) {
             $filter = $this->router->getFilter();
 

@@ -64,10 +64,7 @@ class Cell
     /**
      * Render a cell, returning its body as a string.
      *
-     * @param string            $library   Cell class and method name.
-     * @param array|string|null $params    Parameters to pass to the method.
-     * @param int               $ttl       Number of seconds to cache the cell.
-     * @param string|null       $cacheName Cache item name.
+     * @param array|string|null $params
      *
      * @throws ReflectionException
      */
@@ -78,8 +75,6 @@ class Cell
         $class = is_object($instance)
             ? get_class($instance)
             : null;
-
-        $params = $this->prepareParams($params);
 
         // Is the output cached?
         $cacheName = ! empty($cacheName)
@@ -97,6 +92,8 @@ class Cell
         if (! method_exists($instance, $method)) {
             throw ViewException::forInvalidCellMethod($class, $method);
         }
+
+        $params = $this->prepareParams($params);
 
         $output = $instance instanceof BaseCell
             ? $this->renderCell($instance, $method, $params)
@@ -178,10 +175,9 @@ class Cell
         }
 
         // locate and return an instance of the cell
-        // @TODO extend Factories to be able to load classes with the same short name.
-        $object = class_exists($class) ? new $class() : Factories::cells($class);
+        $class = Factories::cells($class);
 
-        if (! is_object($object)) {
+        if (! is_object($class)) {
             throw ViewException::forInvalidCellClass($class);
         }
 
@@ -190,7 +186,7 @@ class Cell
         }
 
         return [
-            $object,
+            $class,
             $method,
         ];
     }
@@ -234,7 +230,7 @@ class Cell
      * for a method, in the order they are defined. This allows
      * them to be passed directly into the method.
      */
-    private function getMethodParams(BaseCell $instance, string $method, array $params): array
+    private function getMethodParams(BaseCell $instance, string $method, array $params)
     {
         $mountParams = [];
 

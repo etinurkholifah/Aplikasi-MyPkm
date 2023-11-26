@@ -320,8 +320,6 @@ trait TimeTrait
      * @param DateTimeInterface|self|string|null $datetime
      * @param DateTimeZone|string|null           $timezone
      *
-     * @return void
-     *
      * @throws Exception
      */
     public static function setTestNow($datetime = null, $timezone = null, ?string $locale = null)
@@ -846,8 +844,6 @@ trait TimeTrait
 
     /**
      * Returns the localized value of the date in the format 'Y-m-d H:i:s'
-     *
-     * @return false|string
      *
      * @throws Exception
      */

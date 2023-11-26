@@ -13,12 +13,7 @@ use CodeIgniter\Config\AutoloadConfig;
  * can find the files as needed.
  *
  * NOTE: If you use an identical key in $psr4 or $classmap, then
- *       the values in this file will overwrite the framework's values.
- *
- * NOTE: This class is required prior to Autoloader instantiation,
- *       and does not extend BaseConfig.
- *
- * @immutable
+ * the values in this file will overwrite the framework's values.
  */
 class Autoload extends AutoloadConfig
 {
@@ -45,11 +40,9 @@ class Autoload extends AutoloadConfig
      * @phpstan-var array<string, string|list<string>>
      */
     public $psr4 = [
-        'Config' => APPPATH . 'Config',
-        'App' => APPPATH,
-        'App\Models' => APPPATH . 'Models', // Add this line if not already present
+        APP_NAMESPACE => APPPATH, // For custom app namespace
+        'Config'      => APPPATH . 'Config',
     ];
-    
 
     /**
      * -------------------------------------------------------------------

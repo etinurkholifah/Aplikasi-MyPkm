@@ -175,8 +175,6 @@ class CLIRequest extends Request
      *
      * NOTE: I tried to use getopt but had it fail occasionally to find
      * any options, where argv has always had our back.
-     *
-     * @return void
      */
     protected function parseCommand()
     {
@@ -223,7 +221,7 @@ class CLIRequest extends Request
      *
      * @param array|string|null $index  Index for item to fetch from $_GET.
      * @param int|null          $filter A filter name to apply.
-     * @param array|int|null    $flags
+     * @param mixed|null        $flags
      *
      * @return array|null
      */
@@ -237,7 +235,7 @@ class CLIRequest extends Request
      *
      * @param array|string|null $index  Index for item to fetch from $_POST.
      * @param int|null          $filter A filter name to apply
-     * @param array|int|null    $flags
+     * @param mixed             $flags
      *
      * @return array|null
      */
@@ -251,7 +249,7 @@ class CLIRequest extends Request
      *
      * @param array|string|null $index  Index for item to fetch from $_POST or $_GET
      * @param int|null          $filter A filter name to apply
-     * @param array|int|null    $flags
+     * @param mixed             $flags
      *
      * @return array|null
      */
@@ -265,7 +263,7 @@ class CLIRequest extends Request
      *
      * @param array|string|null $index  Index for item to be fetched from $_GET or $_POST
      * @param int|null          $filter A filter name to apply
-     * @param array|int|null    $flags
+     * @param mixed             $flags
      *
      * @return array|null
      */

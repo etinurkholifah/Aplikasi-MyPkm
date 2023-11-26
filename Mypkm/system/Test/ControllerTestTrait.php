@@ -96,12 +96,11 @@ trait ControllerTestTrait
         helper('url');
 
         if (empty($this->appConfig)) {
-            $this->appConfig = config(App::class);
+            $this->appConfig = config('App');
         }
 
         if (! $this->uri instanceof URI) {
-            $factory   = Services::siteurifactory($this->appConfig, Services::superglobals(), false);
-            $this->uri = $factory->createFromGlobals();
+            $this->uri = Services::uri($this->appConfig->baseURL ?? 'http://example.com/', false);
         }
 
         if (empty($this->request)) {
@@ -278,13 +277,7 @@ trait ControllerTestTrait
      */
     public function withUri(string $uri)
     {
-        $factory   = Services::siteurifactory();
-        $this->uri = $factory->createFromString($uri);
-        Services::injectMock('uri', $this->uri);
-
-        // Update the Request instance, because Request has the SiteURI instance.
-        $this->request = Services::incomingrequest(null, false);
-        Services::injectMock('request', $this->request);
+        $this->uri = new URI($uri);
 
         return $this;
     }

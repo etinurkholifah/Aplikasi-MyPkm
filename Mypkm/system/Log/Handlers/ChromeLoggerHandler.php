@@ -149,7 +149,7 @@ class ChromeLoggerHandler extends BaseHandler
     /**
      * Attaches the header and the content to the passed in request object.
      *
-     * @return void
+     * @param ResponseInterface $response
      */
     public function sendLogs(?ResponseInterface &$response = null)
     {

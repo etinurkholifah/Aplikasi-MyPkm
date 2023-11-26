@@ -2,94 +2,64 @@
 <html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.88.1">
+  <title>Halaman Login</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <link rel="stylesheet" href="/assets/css/signin.css">
 
-    <title>MyPkm - Login</title>
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template-->
-    <link href="<?= base_url('assets/'); ?>vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
 
-    <!-- Custom styles for this template-->
-    <link href="<?= base_url('assets/'); ?>css/sb-admin-2.min.css" rel="stylesheet">
-
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  
+  <link href="/assets/css/signin.css" rel="stylesheet">
 </head>
-
-<body class="bg-gradient-primary">
-
-    <div class="container">
-
-        <!-- Outer Row -->
-        <div class="row justify-content-center">
-
-            <div class="col-lg-7">
-
-                <div class="card o-hidden border-0 shadow-lg my-5">
-                    <div class="card-body p-0">
-                        <!-- Nested Row within Card Body -->
-                        <div class="row">
-                            <div class="col-lg">
-                                <div class="p-5">
-                                    <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Welcome to MyPkm</h1>
-                                    </div>
-                                    <form class="user">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control form-control-user"
-                                                id="npm" name="npm" aria-describedby="emailHelp"
-                                                placeholder="Masukkan NPM">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="password" class="form-control form-control-user"
-                                                id="password" name="password" placeholder="Password">
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="custom-control custom-checkbox small">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck">
-                                                <label class="custom-control-label" for="customCheck">Remember
-                                                    Me</label>
-                                            </div>
-                                        </div>
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
-                                            Login
-                                        </a>
-                                        <hr>
-                                    </form>
-                                    <hr>
-                                    <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Forgot Password?</a>
-                                    </div>
-                                    <div class="text-center">
-                                        <a class="small" href="<?= base_url('login/regitration'); ?>">Create an Account!</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <!-- Bootstrap core JavaScript-->
-    <script src="<?= base_url('assets/'); ?>vendor/jquery/jquery.min.js"></script>
-    <script src="<?= base_url('assest/'); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="<?= base_url('assets/'); ?>vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="<?= base_url('assets/'); ?>js/sb-admin-2.min.js"></script>
+<body class="text-center">
+  <main class="form-signin">
+  <form method="POST" action="<?= base_url('login/login_action'); ?>">
+    <p>
+      <?php if (!empty(session()->getFlashdata('error'))) { ?>
+      <div class="alert alert-warning">
+        <?= session()->getFlashdata('error') ?>
+      </div>
+    <?php } ?>
+    </p>
+      <img class="mb-4" src="/assets/image/Mypkm.jpg" alt="" width="72" height="57">
+      <h1 class="h3 mb-3 fw-normal">Please Sign in!</h1>
+      <div class="form-floating">
+      <input type="npm" required name="npm" class="form-control" id="npm" placeholder="Npm">
+        <label for="floatingInput">Npm</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" required class="form-control" name="password" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+      </div>
+      <div class="checkbox mb-3">
+      <div>
+      <a href="/login/register">Register</small>
+      </div>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; Aplikasi MYPKM</p>
+    </form>
+  </main>
 
 </body>
 

@@ -123,7 +123,7 @@ class Pager implements PagerInterface
         $pager = new PagerRenderer($this->getDetails($group));
 
         return $this->view->setVar('pager', $pager)
-            ->render($this->config->templates[$template]);
+            ->render($this->config->templates[$template], null, false);
     }
 
     /**
@@ -387,7 +387,7 @@ class Pager implements PagerInterface
     /**
      * Ensures that an array exists for the group specified.
      *
-     * @return void
+     * @param int $perPage
      */
     protected function ensureGroup(string $group, ?int $perPage = null)
     {
@@ -414,8 +414,6 @@ class Pager implements PagerInterface
 
     /**
      * Calculating the current page
-     *
-     * @return void
      */
     protected function calculateCurrentPage(string $group)
     {

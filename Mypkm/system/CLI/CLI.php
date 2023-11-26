@@ -142,8 +142,6 @@ class CLI
 
     /**
      * Static "constructor".
-     *
-     * @return void
      */
     public static function init()
     {
@@ -177,7 +175,7 @@ class CLI
      * Named options must be in the following formats:
      * php index.php user -v --v -name=John --name=John
      *
-     * @param string $prefix You may specify a string with which to prompt the user.
+     * @param string $prefix
      */
     public static function input(?string $prefix = null): string
     {
@@ -431,8 +429,6 @@ class CLI
     /**
      * Outputs a string to the CLI without any surrounding newlines.
      * Useful for showing repeating elements on a single line.
-     *
-     * @return void
      */
     public static function print(string $text = '', ?string $foreground = null, ?string $background = null)
     {
@@ -447,8 +443,6 @@ class CLI
 
     /**
      * Outputs a string to the cli on it's own line.
-     *
-     * @return void
      */
     public static function write(string $text = '', ?string $foreground = null, ?string $background = null)
     {
@@ -466,8 +460,6 @@ class CLI
 
     /**
      * Outputs an error to the CLI using STDERR instead of STDOUT
-     *
-     * @return void
      */
     public static function error(string $text, string $foreground = 'light_red', ?string $background = null)
     {
@@ -489,8 +481,6 @@ class CLI
      * Beeps a certain number of times.
      *
      * @param int $num The number of times to beep
-     *
-     * @return void
      */
     public static function beep(int $num = 1)
     {
@@ -503,8 +493,6 @@ class CLI
      *
      * @param int  $seconds   Number of seconds
      * @param bool $countdown Show a countdown or not
-     *
-     * @return void
      */
     public static function wait(int $seconds, bool $countdown = false)
     {
@@ -532,7 +520,7 @@ class CLI
     /**
      * if operating system === windows
      *
-     * @deprecated 4.3.0 Use `is_windows()` instead
+     * @deprecated v4.3 Use `is_windows()` instead
      */
     public static function isWindows(): bool
     {
@@ -541,8 +529,6 @@ class CLI
 
     /**
      * Enter a number of empty lines
-     *
-     * @return void
      */
     public static function newLine(int $num = 1)
     {
@@ -556,8 +542,6 @@ class CLI
      * Clears the screen of output
      *
      * @codeCoverageIgnore
-     *
-     * @return void
      */
     public static function clearScreen()
     {
@@ -751,8 +735,6 @@ class CLI
      * Populates the CLI's dimensions.
      *
      * @codeCoverageIgnore
-     *
-     * @return void
      */
     public static function generateDimensions()
     {
@@ -796,8 +778,6 @@ class CLI
      * to update it. Set $thisStep = false to erase the progress bar.
      *
      * @param bool|int $thisStep
-     *
-     * @return void
      */
     public static function showProgress($thisStep = 1, int $totalSteps = 10)
     {
@@ -879,8 +859,6 @@ class CLI
     /**
      * Parses the command line it was called from and collects all
      * options and valid segments.
-     *
-     * @return void
      */
     protected static function parseCommandLine()
     {
@@ -1020,8 +998,6 @@ class CLI
      *
      * @param array $tbody List of rows
      * @param array $thead List of columns
-     *
-     * @return void
      */
     public static function table(array $tbody, array $thead = [])
     {
@@ -1120,8 +1096,6 @@ class CLI
      * solution down the road.
      *
      * @param resource $handle
-     *
-     * @return void
      */
     protected static function fwrite($handle, string $string)
     {

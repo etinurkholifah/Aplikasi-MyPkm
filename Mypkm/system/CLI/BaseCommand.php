@@ -11,7 +11,6 @@
 
 namespace CodeIgniter\CLI;
 
-use Config\Exceptions;
 use Psr\Log\LoggerInterface;
 use ReflectionException;
 use Throwable;
@@ -117,22 +116,18 @@ abstract class BaseCommand
 
     /**
      * A simple method to display an error with line/file, in child commands.
-     *
-     * @return void
      */
     protected function showError(Throwable $e)
     {
         $exception = $e;
         $message   = $e->getMessage();
-        $config    = config(Exceptions::class);
+        $config    = config('Exceptions');
 
         require $config->errorViewPath . '/cli/error_exception.php';
     }
 
     /**
      * Show Help includes (Usage, Arguments, Description, Options).
-     *
-     * @return void
      */
     public function showHelp()
     {

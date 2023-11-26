@@ -21,7 +21,6 @@ use CodeIgniter\Debug\Timer;
 use CodeIgniter\Files\Exceptions\FileNotFoundException;
 use CodeIgniter\HTTP\CLIRequest;
 use CodeIgniter\HTTP\Exceptions\HTTPException;
-use CodeIgniter\HTTP\Exceptions\RedirectException;
 use CodeIgniter\HTTP\IncomingRequest;
 use CodeIgniter\HTTP\RedirectResponse;
 use CodeIgniter\HTTP\RequestInterface;
@@ -66,8 +65,8 @@ if (! function_exists('cache')) {
      *    cache()->save('foo', 'bar');
      *    $foo = cache('bar');
      *
-     * @return array|bool|CacheInterface|float|int|object|string|null
-     * @phpstan-return ($key is null ? CacheInterface : array|bool|float|int|object|string|null)
+     * @return CacheInterface|mixed
+     * @phpstan-return ($key is null ? CacheInterface : mixed)
      */
     function cache(?string $key = null)
     {
@@ -471,28 +470,28 @@ if (! function_exists('force_https')) {
      *
      * @see https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
      *
-     * @param int $duration How long should the SSL header be set for? (in seconds)
-     *                      Defaults to 1 year.
+     * @param int               $duration How long should the SSL header be set for? (in seconds)
+     *                                    Defaults to 1 year.
+     * @param RequestInterface  $request
+     * @param ResponseInterface $response
      *
      * @throws HTTPException
-     * @throws RedirectException
      */
-    function force_https(
-        int $duration = 31_536_000,
-        ?RequestInterface $request = null,
-        ?ResponseInterface $response = null
-    ) {
-        $request ??= Services::request();
+    function force_https(int $duration = 31_536_000, ?RequestInterface $request = null, ?ResponseInterface $response = null)
+    {
+        if ($request === null) {
+            $request = Services::request(null, true);
+        }
 
         if (! $request instanceof IncomingRequest) {
             return;
         }
 
-        $response ??= Services::response();
+        if ($response === null) {
+            $response = Services::response(null, true);
+        }
 
-        if ((ENVIRONMENT !== 'testing' && (is_cli() || $request->isSecure()))
-            || $request->getServer('HTTPS') === 'test'
-        ) {
+        if ((ENVIRONMENT !== 'testing' && (is_cli() || $request->isSecure())) || (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'test')) {
             return; // @codeCoverageIgnore
         }
 
@@ -521,14 +520,13 @@ if (! function_exists('force_https')) {
         );
 
         // Set an HSTS header
-        $response->setHeader('Strict-Transport-Security', 'max-age=' . $duration)
-            ->redirect($uri)
-            ->setStatusCode(307)
-            ->setBody('')
-            ->getCookieStore()
-            ->clear();
+        $response->setHeader('Strict-Transport-Security', 'max-age=' . $duration);
+        $response->redirect($uri);
+        $response->sendHeaders();
 
-        throw new RedirectException($response);
+        if (ENVIRONMENT !== 'testing') {
+            exit(); // @codeCoverageIgnore
+        }
     }
 }
 
@@ -746,7 +744,11 @@ if (! function_exists('is_windows')) {
             $mocked = $mock;
         }
 
-        return $mocked ?? DIRECTORY_SEPARATOR === '\\';
+        if (isset($mocked)) {
+            return $mocked;
+        }
+
+        return DIRECTORY_SEPARATOR === '\\';
     }
 }
 
@@ -886,21 +888,11 @@ if (! function_exists('_solidus')) {
     /**
      * Generates the solidus character (`/`) depending on the HTML5 compatibility flag in `Config\DocTypes`
      *
-     * @param DocTypes|null $docTypesConfig New config. For testing purpose only.
-     *
      * @internal
      */
-    function _solidus(?DocTypes $docTypesConfig = null): string
+    function _solidus(): string
     {
-        static $docTypes = null;
-
-        if ($docTypesConfig !== null) {
-            $docTypes = $docTypesConfig;
-        }
-
-        $docTypes ??= new DocTypes();
-
-        if ($docTypes->html5 ?? false) {
+        if (config(DocTypes::class)->html5 ?? false) {
             return '';
         }
 
@@ -1015,9 +1007,11 @@ if (! function_exists('service')) {
      *  - $timer = service('timer')
      *  - $timer = \CodeIgniter\Config\Services::timer();
      *
-     * @param array|bool|float|int|object|string|null ...$params
+     * @param mixed ...$params
+     *
+     * @return object
      */
-    function service(string $name, ...$params): ?object
+    function service(string $name, ...$params)
     {
         return Services::$name(...$params);
     }
@@ -1027,9 +1021,11 @@ if (! function_exists('single_service')) {
     /**
      * Always returns a new instance of the class.
      *
-     * @param array|bool|float|int|object|string|null ...$params
+     * @param mixed ...$params
+     *
+     * @return object|null
      */
-    function single_service(string $name, ...$params): ?object
+    function single_service(string $name, ...$params)
     {
         $service = Services::serviceExists($name);
 

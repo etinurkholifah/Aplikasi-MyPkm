@@ -148,8 +148,6 @@ class Autoloader
 
     /**
      * Register the loader with the SPL autoloader stack.
-     *
-     * @return void
      */
     public function register()
     {
@@ -240,27 +238,33 @@ class Autoloader
     /**
      * Load a class using available class mapping.
      *
-     * @internal For `spl_autoload_register` use.
+     * @return false|string
      */
-    public function loadClassmap(string $class): void
+    public function loadClassmap(string $class)
     {
         $file = $this->classmap[$class] ?? '';
 
         if (is_string($file) && $file !== '') {
-            $this->includeFile($file);
+            return $this->includeFile($file);
         }
+
+        return false;
     }
 
     /**
      * Loads the class file for a given class name.
      *
-     * @internal For `spl_autoload_register` use.
-     *
      * @param string $class The fully qualified class name.
+     *
+     * @return false|string The mapped file on success, or boolean false
+     *                      on failure.
      */
-    public function loadClass(string $class): void
+    public function loadClass(string $class)
     {
-        $this->loadInNamespace($class);
+        $class = trim($class, '\\');
+        $class = str_ireplace('.php', '', $class);
+
+        return $this->loadInNamespace($class);
     }
 
     /**
@@ -302,6 +306,8 @@ class Autoloader
      */
     protected function includeFile(string $file)
     {
+        $file = $this->sanitizeFilename($file);
+
         if (is_file($file)) {
             include_once $file;
 
@@ -321,8 +327,6 @@ class Autoloader
      * and end of filename.
      *
      * @return string The sanitized filename
-     *
-     * @deprecated No longer used. See https://github.com/codeigniter4/CodeIgniter4/issues/7055
      */
     public function sanitizeFilename(string $filename): string
     {
@@ -441,8 +445,6 @@ class Autoloader
      * Locates autoload information from Composer, if available.
      *
      * @deprecated No longer used.
-     *
-     * @return void
      */
     protected function discoverComposerNamespaces()
     {

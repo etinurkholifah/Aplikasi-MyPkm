@@ -13,7 +13,6 @@ namespace CodeIgniter\HTTP;
 
 use CodeIgniter\Exceptions\DownloadException;
 use CodeIgniter\Files\File;
-use Config\App;
 use Config\Mimes;
 
 /**
@@ -65,7 +64,7 @@ class DownloadResponse extends Response
      */
     public function __construct(string $filename, bool $setMime)
     {
-        parent::__construct(config(App::class));
+        parent::__construct(config('App'));
 
         $this->filename = $filename;
         $this->setMime  = $setMime;
@@ -76,8 +75,6 @@ class DownloadResponse extends Response
 
     /**
      * set download for binary string.
-     *
-     * @return void
      */
     public function setBinary(string $binary)
     {
@@ -90,8 +87,6 @@ class DownloadResponse extends Response
 
     /**
      * set download for file.
-     *
-     * @return void
      */
     public function setFilePath(string $filepath)
     {
@@ -133,7 +128,7 @@ class DownloadResponse extends Response
     /**
      * Set content type by guessing mime type from file extension
      */
-    private function setContentTypeByMimeType(): void
+    private function setContentTypeByMimeType()
     {
         $mime    = null;
         $charset = '';
@@ -257,13 +252,6 @@ class DownloadResponse extends Response
      */
     public function send()
     {
-        // Turn off output buffering completely, even if php.ini output_buffering is not off
-        if (ENVIRONMENT !== 'testing') {
-            while (ob_get_level() > 0) {
-                ob_end_clean();
-            }
-        }
-
         $this->buildHeaders();
         $this->sendHeaders();
         $this->sendBody();
@@ -273,8 +261,6 @@ class DownloadResponse extends Response
 
     /**
      * set header for file download.
-     *
-     * @return void
      */
     public function buildHeaders()
     {
@@ -282,10 +268,7 @@ class DownloadResponse extends Response
             $this->setContentTypeByMimeType();
         }
 
-        if (! $this->hasHeader('Content-Disposition')) {
-            $this->setHeader('Content-Disposition', $this->getContentDisposition());
-        }
-
+        $this->setHeader('Content-Disposition', $this->getContentDisposition());
         $this->setHeader('Expires-Disposition', '0');
         $this->setHeader('Content-Transfer-Encoding', 'binary');
         $this->setHeader('Content-Length', (string) $this->getContentLength());
@@ -338,18 +321,6 @@ class DownloadResponse extends Response
     private function sendBodyByBinary()
     {
         echo $this->binary;
-
-        return $this;
-    }
-
-    /**
-     * Sets the response header to display the file in the browser.
-     *
-     * @return DownloadResponse
-     */
-    public function inline()
-    {
-        $this->setHeader('Content-Disposition', 'inline');
 
         return $this;
     }

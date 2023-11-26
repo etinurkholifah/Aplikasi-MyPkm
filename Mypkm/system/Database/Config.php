@@ -37,7 +37,7 @@ class Config extends BaseConfig
     protected static $factory;
 
     /**
-     * Returns the database connection
+     * Creates the default
      *
      * @param array|BaseConnection|string|null $group The name of the connection group to use,
      *                                                or an array of configuration settings.
@@ -57,7 +57,8 @@ class Config extends BaseConfig
             $config = $group;
             $group  = 'custom-' . md5(json_encode($config));
         } else {
-            $dbConfig = config(DbConfig::class);
+            /** @var DbConfig $dbConfig */
+            $dbConfig = config('Database');
 
             if ($group === null) {
                 $group = (ENVIRONMENT === 'testing') ? 'tests' : $dbConfig->defaultGroup;
@@ -131,7 +132,7 @@ class Config extends BaseConfig
      */
     public static function seeder(?string $group = null)
     {
-        $config = config(DbConfig::class);
+        $config = config('Database');
 
         return new Seeder($config, static::connect($group));
     }

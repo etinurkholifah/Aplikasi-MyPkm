@@ -149,7 +149,7 @@ class Encryption
      *
      * @param string $key Property name
      *
-     * @return array|string|null
+     * @return mixed
      */
     public function __get($key)
     {
