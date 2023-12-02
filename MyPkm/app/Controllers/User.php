@@ -16,4 +16,10 @@ class User extends BaseController
 
         return view('Home/index');
     }
+
+    public function Require()
+    {
+        helper('my');
+        requireLogin(); 
+    }
 }

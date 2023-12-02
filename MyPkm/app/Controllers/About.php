@@ -10,4 +10,10 @@ class About extends BaseController
     {
         return view('/event/about');
     }
+
+    public function Require()
+    {
+        helper('my');
+        requireLogin(); 
+    }
 }

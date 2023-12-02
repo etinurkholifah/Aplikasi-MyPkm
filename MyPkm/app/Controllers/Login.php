@@ -69,4 +69,10 @@ class Login extends BaseController
         session()->setFlashdata('success', 'Registration successful. Please login.');
         return redirect()->to(base_url('login'));
     }
+
+    public function Require()
+    {
+        helper('my');
+        requireLogin(); 
+    }
 }

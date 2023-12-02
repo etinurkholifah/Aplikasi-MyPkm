@@ -17,4 +17,10 @@ class Home extends BaseController
          echo view('layout/layoutfooter');
          
     }
+
+    public function Require()
+    {
+        helper('my');
+        requireLogin(); 
+    }
 }

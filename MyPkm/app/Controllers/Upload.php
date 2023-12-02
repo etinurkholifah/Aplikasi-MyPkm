@@ -3,6 +3,8 @@
 namespace App\Controllers;
 
 #use CodeIgniter\Controller;
+
+use App\Models\UserModel;
 use CodeIgniter\HTTP\Request;
 use App\Models\Users;
 
