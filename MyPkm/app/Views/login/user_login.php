@@ -52,7 +52,7 @@
         <label for="floatingPassword">Password</label>
       </div>
       <div class="checkbox mb-3">
-      <div>
+      <div class="text-end">
       <a href="/login/register">Register</small>
       </div>
       </div>

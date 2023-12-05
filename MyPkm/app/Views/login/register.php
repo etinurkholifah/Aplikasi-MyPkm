@@ -49,7 +49,14 @@
             <label for="floatingPassword">Password</label>
         </div>
 
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Register</button>
+        <div class="text-end mb-2">
+            <a href="/user_login">Back To Login</a>
+        </div>
+
+        <div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Register</button>
+        </div>
+
         <p class="mt-5 mb-3 text-muted">&copy; Aplikasi MYPKM</p>
         </form>
     </main>
