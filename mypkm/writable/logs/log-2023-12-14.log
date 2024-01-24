@@ -1,0 +1,155 @@
+CRITICAL - 2023-12-14 01:51:43 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Dashboard::index"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-14 01:51:45 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Dashboard::index"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-14 01:51:45 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Dashboard::index"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-14 01:51:45 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Dashboard::index"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-14 01:53:27 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Dashboard::index"
+in SYSTEMPATH\Router\Router.php on line 479.
+ 1 SYSTEMPATH\Router\Router.php(479): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-14 01:53:37 --> Invalid file: "admin/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\admin\Dashboard.php(11): view('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm\\public\\index.php')
+ERROR - 2023-12-14 02:54:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in E:\xixixi\mypkm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3306, '', 0)
+#1 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xixixi\mypkm\app\Models\MahasiswaModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 E:\xixixi\mypkm\app\Controllers\admin\Mahasiswa.php(20): App\Models\MahasiswaModel->getAllData()
+#8 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->index()
+#9 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+#10 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xixixi\mypkm\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in E:\xixixi\mypkm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\xixixi\mypkm\app\Models\MahasiswaModel.php(16): CodeIgniter\BaseModel->findAll()
+#6 E:\xixixi\mypkm\app\Controllers\admin\Mahasiswa.php(20): App\Models\MahasiswaModel->getAllData()
+#7 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->index()
+#8 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+#9 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xixixi\mypkm\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 E:\xixixi\mypkm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm...')
+#12 {main}
+CRITICAL - 2023-12-14 02:54:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\MahasiswaModel.php(16): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\admin\Mahasiswa.php(20): App\Models\MahasiswaModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-14 03:23:34 --> Invalid file: "admin/mahasiswaAdd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswaAdd.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/mahasiswaAdd', [], true)
+ 3 APPPATH\Controllers\admin\Mahasiswa.php(26): view('admin/mahasiswaAdd')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->add()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm\\public\\index.php')
+INFO - 2023-12-14 03:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 04:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 04:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 04:05:40 --> Undefined array key "id_mahasiswa"
+in APPPATH\Views\admin\Mahasiswa.php on line 43.
+ 1 APPPATH\Views\admin\Mahasiswa.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mahasiswa"', 'E:\\xixixi\\mypkm\\app\\Views\\admin\\Mahasiswa.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xixixi\\mypkm\\app\\Views\\admin\\Mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Mahasiswa', [], true)
+ 5 APPPATH\Controllers\admin\Mahasiswa.php(22): view('admin/Mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-14 04:20:48 --> view(): Argument #2 ($data) must be of type array, string given, called in E:\xixixi\mypkm\app\Controllers\admin\Mahasiswa.php on line 50
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\admin\Mahasiswa.php(50): view('admin/mahasiswaEdit', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->edit('3')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-14 04:26:05 --> Undefined variable $mahasiswa
+in APPPATH\Views\admin\mahasiswaEdit.php on line 21.
+ 1 APPPATH\Views\admin\mahasiswaEdit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'E:\\xixixi\\mypkm\\app\\Views\\admin\\mahasiswaEdit.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xixixi\\mypkm\\app\\Views\\admin\\mahasiswaEdit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/mahasiswaEdit', [], true)
+ 5 APPPATH\Controllers\admin\Mahasiswa.php(55): view('admin/mahasiswaEdit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-14 04:30:31 --> Too few arguments to function App\Controllers\Admin\Mahasiswa::UpdateProses(), 0 passed in E:\xixixi\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\admin\Mahasiswa.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->UpdateProses()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xixixi\\mypkm\\public\\index.php')
+INFO - 2023-12-14 05:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,83 @@
+INFO - 2023-12-23 13:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 13:15:29 --> Invalid file: "admin/Admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Admin.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Admin', [], true)
+ 3 APPPATH\Controllers\admin\Admin.php(30): view('admin/Admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-23 13:16:28 --> Undefined variable $dataMahasiswa
+in APPPATH\Views\admin\admin.php on line 34.
+ 1 APPPATH\Views\admin\admin.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataMahasiswa', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\admin.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\admin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin', [], true)
+ 5 APPPATH\Controllers\admin\Admin.php(30): view('admin/admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-23 13:32:35 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\admin\Admin.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Admin->addProses()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-23 13:33:25 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\admin\Admin.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Admin->addProses()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-23 14:28:59 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\admin\Admin.php(44): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\/assets/images/admin/', '1703341739_e0576f56331591811dc9')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Admin->addProses()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-23 14:30:01 --> Too few arguments to function App\Controllers\Admin\Admin::updateProses(), 0 passed in C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\admin\Admin.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Admin->updateProses()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-23 14:32:28 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\admin\Admin.php(95): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Admin->updateProses()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-23 14:33:15 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\admin\Admin.php(95): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Admin->updateProses()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-23 14:33:21 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\admin\Admin.php(95): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Admin->updateProses()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')

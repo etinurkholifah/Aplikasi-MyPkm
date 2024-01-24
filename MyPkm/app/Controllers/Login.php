@@ -1,78 +1,97 @@
-<?php namespace App\Controllers;
+<?php
 
-use App\Models\UserModel;
+namespace App\Controllers;
+
+use App\Controllers\BaseController;
+use App\Models\MahasiswaModel;
+use App\Models\AkademikModel;
+use App\Models\AdminModel;
 
 class Login extends BaseController
 {
-    public function index()
+    protected $admin;
+    protected $akademik;
+    protected $mahasiswa;
+    protected $session;
+
+    public function __construct()
     {
-        return view('/login/user_login');
+        $this->session = \Config\Services::session();
+        $this->admin = new AdminModel();
+        $this->akademik = new AkademikModel();
+        $this->mahasiswa = new MahasiswaModel();
     }
 
-    public function login_action()
+    public function index()
     {
-        $muser = new UserModel();
-        $npm = $this->request->getPost('npm');
+        return view('login');
+    }
+
+    public function processLogin()
+    {
+        $username = $this->request->getPost('username');
         $password = $this->request->getPost('password');
 
-        $cek = $muser->get_data($npm, $password);
-        if ($cek !== null && ($cek['user_npm'] == $npm) && ($cek['user_password'] == $password)) {
-            session()->set('logged_in', true);
-            session()->set('user_email', $cek['user_email']);
-            session()->set('user_npm', $cek['user_npm']);
-            session()->set('user_id', $cek['user_id']);
-            return redirect()->to(base_url('home/index'));
+        $admin = $this->admin->authenticate($username, $password);
+        $mahasiswa = $this->mahasiswa->authenticate($username, $password);
+        $akademik = $this->akademik->authenticate($username, $password);
+
+        if ($admin) {
+            $userData = [
+                'id' => $admin['id_admin'],
+                'nama' => $admin['nama'],
+                'username' => $admin['username'],
+                'role' => 'admin'
+            ];
+            session()->set('user', $userData);
+        } elseif ($mahasiswa) {
+            if ($mahasiswa['status_akun'] == 'aktif') {
+                $userData = [
+                    'id_mahasiswa' => $mahasiswa['id_mahasiswa'],
+                    'username' => $mahasiswa['npm'],
+                    'nama' => $mahasiswa['nama'],
+                    'role' => 'mahasiswa'
+                ];
+
+                // Set data sesi untuk mahasiswa
+                session()->set('user', $userData);
+            } else {
+                return redirect()->to('/login')->with('error', 'Akun tidak aktif');
+            }
+        } elseif ($akademik) {
+            // Pengguna adalah akademik
+            $userData = [
+                'id_akademik' => $akademik['id_akademik'],
+                'nama' => $akademik['nama'],
+                'username' => $akademik['username'],
+                'nip' => $akademik['nip'],
+                'role' => $akademik['role']
+            ];
+            session()->set('user', $userData);
         } else {
-            session()->setFlashdata('gagal', 'Username / Password salah');
-            return redirect()->back()->withInput()->with('error', 'Invalid username or password');
+            return redirect()->to('/login')->with('error', 'Login failed/akun tidak aktif');
+        }
+
+        switch ($userData['role']) {
+            case 'admin':
+                return redirect()->to('/admin/dashboard');
+            case 'mahasiswa':
+                return redirect()->to('/mahasiswa/dashboard');
+            case 'KABAG':
+                return redirect()->to('/kabag/dashboard');
+            case 'KASUBAG':
+                return redirect()->to('/kasubag/dashboard');
+            case 'WADIR':
+                return redirect()->to('/wadir/dashboard');
+            default:
+                return redirect()->to('/login')->with('error', 'Invalid role');
         }
     }
 
     public function logout()
     {
-        session()->destroy();
-        return redirect()->to(base_url('login'));
-    }
-
-    public function register()
-    {
-        return view('login/register');
-    }
-
-
-    public function reg_action()
-    {
-        $muser = new UserModel();
-
-        $validation = $this->validate([
-            'user_npm' => 'required',
-            'user_email' => 'required|valid_email',
-            'user_password' => 'required|min_length[6]',
-        ]);
-
-        if (!$validation) {
-            $errors = \Config\Services::validation()->getErrors();
-            return redirect()->back()->withInput()->with('errors', $errors);
-        }
-
-        $data = [
-            'user_npm' => $this->request->getPost('user_npm'),
-            'user_email' => $this->request->getPost('user_email'),
-            'user_password' => $this->request->getPost('user_password'),
-        ];
-
-        if (!$muser->save($data)) {
-            $errors = $muser->errors();
-            return redirect()->back()->withInput()->with('errors', $errors);
-        }
-
-        session()->setFlashdata('success', 'Registration successful. Please login.');
-        return redirect()->to(base_url('login'));
-    }
-
-    public function Require()
-    {
-        helper('my');
-        requireLogin(); 
+        // Hapus sesi pengguna dan arahkan ke halaman login
+        session()->remove('user');
+        return redirect()->to('/login');
     }
 }

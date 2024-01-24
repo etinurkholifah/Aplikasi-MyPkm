@@ -1,0 +1,865 @@
+CRITICAL - 2023-12-25 00:20:26 --> Undefined array key "foto"
+in APPPATH\Controllers\admin\Akademik.php on line 89.
+ 1 APPPATH\Controllers\admin\Akademik.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto"', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Controllers\\admin\\Akademik.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Akademik->UpdateProses()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Akademik))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 00:23:01 --> Undefined array key "foto"
+in APPPATH\Controllers\admin\Akademik.php on line 89.
+ 1 APPPATH\Controllers\admin\Akademik.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto"', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Controllers\\admin\\Akademik.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Akademik->UpdateProses()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Akademik))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 00:26:37 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\admin\Akademik.php(95): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Akademik->UpdateProses()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Akademik))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 00:27:31 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\admin\Akademik.php(95): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Akademik->UpdateProses()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Akademik))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 00:29:52 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\admin\Akademik.php(95): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Akademik->UpdateProses()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Akademik))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 00:30:44 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\admin\Akademik.php(95): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Akademik->UpdateProses()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Akademik))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 00:30:47 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\admin\Akademik.php(95): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Akademik->UpdateProses()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Akademik))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 01:50:13 --> Undefined variable $dataAkademik
+in APPPATH\Views\admin\dataUsulan.php on line 37.
+ 1 APPPATH\Views\admin\dataUsulan.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataAkademik', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(24): view('admin/dataUsulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 01:50:24 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\admin\dataUsulan.php on line 37.
+ 1 APPPATH\Views\admin\dataUsulan.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(24): view('admin/dataUsulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 01:50:56 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\admin\dataUsulan.php on line 36.
+ 1 APPPATH\Views\admin\dataUsulan.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(24): view('admin/dataUsulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 01:50:57 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\admin\dataUsulan.php on line 36.
+ 1 APPPATH\Views\admin\dataUsulan.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(24): view('admin/dataUsulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+ERROR - 2023-12-25 02:43:55 --> mysqli_sql_exception: Column 'tahun_ajaran' cannot be null in C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Shiroo Neko\Pictures\mypkm\app\Controllers\admin\Usulan.php(49): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Admin\Usulan->addProses()
+#10 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+#11 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Shiroo Neko\Pictures\mypkm\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo...')
+#14 {main}
+CRITICAL - 2023-12-25 02:43:55 --> Column 'tahun_ajaran' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_usulan` (`skema`, `judul`, `tahun_ajaran`, `id_mahasiswa`) VALUES (:skema:, :judul:, :tahun_ajaran:, :id_mahasiswa:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\admin\Usulan.php(49): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->addProses()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 02:44:17 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\dataUsulan.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 4 APPPATH\Controllers\admin\Usulan.php(27): view('admin/dataUsulan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 02:47:39 --> Undefined array key "proposal"
+in APPPATH\Views\admin\dataUsulan.php on line 45.
+ 1 APPPATH\Views\admin\dataUsulan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "proposal"', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(27): view('admin/dataUsulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 02:48:03 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\dataUsulan.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 4 APPPATH\Controllers\admin\Usulan.php(27): view('admin/dataUsulan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 02:50:41 --> Undefined array key "proposal"
+in APPPATH\Views\admin\dataUsulan.php on line 45.
+ 1 APPPATH\Views\admin\dataUsulan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "proposal"', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(27): view('admin/dataUsulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 02:51:48 --> Undefined array key "proposal"
+in APPPATH\Views\admin\dataUsulan.php on line 45.
+ 1 APPPATH\Views\admin\dataUsulan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "proposal"', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(27): view('admin/dataUsulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 02:52:15 --> Undefined array key "nama"
+in APPPATH\Views\admin\dataUsulan.php on line 39.
+ 1 APPPATH\Views\admin\dataUsulan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(27): view('admin/dataUsulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 02:52:16 --> Undefined array key "nama"
+in APPPATH\Views\admin\dataUsulan.php on line 39.
+ 1 APPPATH\Views\admin\dataUsulan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(27): view('admin/dataUsulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 02:54:58 --> Undefined array key "val_wadir"
+in APPPATH\Views\admin\dataUsulan.php on line 45.
+ 1 APPPATH\Views\admin\dataUsulan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "val_wadir"', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(27): view('admin/dataUsulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+INFO - 2023-12-25 05:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 05:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 05:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 05:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-25 05:28:34 --> Call to a member function isValid() on null
+in APPPATH\Controllers\admin\Usulan.php on line 143.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 05:30:00 --> syntax error, unexpected identifier "ppublic", expecting "function" or "const"
+in APPPATH\Controllers\admin\Usulan.php on line 117.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('admin/usulan/uploadDocument', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('admin/usulan/uploadDocument')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/usulan/uploadDocument')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 05:30:10 --> syntax error, unexpected identifier "ppublic", expecting "function" or "const"
+in APPPATH\Controllers\admin\Usulan.php on line 117.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('admin/usulan', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('admin/usulan')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/usulan')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 05:30:16 --> syntax error, unexpected identifier "ppublic", expecting "function" or "const"
+in APPPATH\Controllers\admin\Usulan.php on line 117.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('admin/usulan', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('admin/usulan')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/usulan')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 05:30:17 --> syntax error, unexpected identifier "ppublic", expecting "function" or "const"
+in APPPATH\Controllers\admin\Usulan.php on line 117.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('admin/usulan', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('admin/usulan')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/usulan')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 05:30:18 --> syntax error, unexpected identifier "ppublic", expecting "function" or "const"
+in APPPATH\Controllers\admin\Usulan.php on line 117.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('admin/usulan', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('admin/usulan')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/usulan')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 05:30:19 --> syntax error, unexpected identifier "ppublic", expecting "function" or "const"
+in APPPATH\Controllers\admin\Usulan.php on line 117.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('admin/usulan', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('admin/usulan')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/usulan')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 05:30:34 --> syntax error, unexpected identifier "ppublic", expecting "function" or "const"
+in APPPATH\Controllers\admin\Usulan.php on line 117.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('admin/usulan', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('admin/usulan')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin/usulan')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+ERROR - 2023-12-25 05:31:11 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mypkm`.`tb_usulan`, CONSTRAINT `tb_usulan_ibfk_1` FOREIGN KEY (`id_mahasiswa`) REFERENCES `tb_mahasiswa` (`id_mahasiswa`)) in C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Shiroo Neko\Pictures\mypkm\app\Controllers\admin\Usulan.php(168): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+#10 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+#11 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Shiroo Neko\Pictures\mypkm\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo...')
+#14 {main}
+CRITICAL - 2023-12-25 05:31:11 --> Cannot add or update a child row: a foreign key constraint fails (`mypkm`.`tb_usulan`, CONSTRAINT `tb_usulan_ibfk_1` FOREIGN KEY (`id_mahasiswa`) REFERENCES `tb_mahasiswa` (`id_mahasiswa`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_usulan` (`id_belmawa`) VALUES (:id_belmawa:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\admin\Usulan.php(168): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+ERROR - 2023-12-25 05:32:57 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mypkm`.`tb_usulan`, CONSTRAINT `tb_usulan_ibfk_1` FOREIGN KEY (`id_mahasiswa`) REFERENCES `tb_mahasiswa` (`id_mahasiswa`)) in C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Shiroo Neko\Pictures\mypkm\app\Controllers\admin\Usulan.php(168): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+#10 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+#11 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Shiroo Neko\Pictures\mypkm\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo...')
+#14 {main}
+CRITICAL - 2023-12-25 05:32:57 --> Cannot add or update a child row: a foreign key constraint fails (`mypkm`.`tb_usulan`, CONSTRAINT `tb_usulan_ibfk_1` FOREIGN KEY (`id_mahasiswa`) REFERENCES `tb_mahasiswa` (`id_mahasiswa`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_usulan` (`id_belmawa`) VALUES (:id_belmawa:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\admin\Usulan.php(168): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+ERROR - 2023-12-25 05:34:04 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mypkm`.`tb_usulan`, CONSTRAINT `tb_usulan_ibfk_1` FOREIGN KEY (`id_mahasiswa`) REFERENCES `tb_mahasiswa` (`id_mahasiswa`)) in C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Shiroo Neko\Pictures\mypkm\app\Controllers\admin\Usulan.php(168): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+#10 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+#11 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Shiroo Neko\Pictures\mypkm\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo...')
+#14 {main}
+CRITICAL - 2023-12-25 05:34:04 --> Cannot add or update a child row: a foreign key constraint fails (`mypkm`.`tb_usulan`, CONSTRAINT `tb_usulan_ibfk_1` FOREIGN KEY (`id_mahasiswa`) REFERENCES `tb_mahasiswa` (`id_mahasiswa`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_usulan` (`id_belmawa`) VALUES (:id_belmawa:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\admin\Usulan.php(168): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 05:35:06 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\admin\Usulan.php(168): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 05:58:25 --> Call to undefined function App\Controllers\Admin\random_string()
+in APPPATH\Controllers\admin\Usulan.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 05:58:55 --> Call to undefined function App\Controllers\Admin\random_string()
+in APPPATH\Controllers\admin\Usulan.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 05:59:10 --> Call to undefined function App\Controllers\Admin\random_string()
+in APPPATH\Controllers\admin\Usulan.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 05:59:41 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1752.
+ 1 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray('1', 'update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], '1')
+ 3 APPPATH\Controllers\admin\Usulan.php(171): CodeIgniter\Model->update([...], '1')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 06:01:31 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1752.
+ 1 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray('1', 'update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], '1')
+ 3 APPPATH\Controllers\admin\Usulan.php(173): CodeIgniter\Model->update([...], '1')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 06:32:36 --> Invalid file: "admin/usulanDetail.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/usulanDetail.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/usulanDetail', [], true)
+ 3 APPPATH\Controllers\admin\Usulan.php(189): view('admin/usulanDetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 06:38:54 --> Undefined array key 0
+in APPPATH\Views\admin\usulanDetail.php on line 16.
+ 1 APPPATH\Views\admin\usulanDetail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\usulanDetail.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\usulanDetail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/usulanDetail', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(189): view('admin/usulanDetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+INFO - 2023-12-25 07:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 07:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-25 07:45:12 --> Undefined property: App\Controllers\Admin\Usulan::$akademik
+in APPPATH\Controllers\admin\Usulan.php on line 57.
+ 1 APPPATH\Controllers\admin\Usulan.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Usulan::$akademik', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Controllers\\admin\\Usulan.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 07:53:04 --> Undefined variable $dataMahasiswa
+in APPPATH\Views\admin\usulanDetail.php on line 75.
+ 1 APPPATH\Views\admin\usulanDetail.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataMahasiswa', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\usulanDetail.php', 75)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\usulanDetail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/usulanDetail', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(187): view('admin/usulanDetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 08:04:03 --> Undefined property: App\Controllers\Admin\Usulan::$akademik
+in APPPATH\Controllers\admin\Usulan.php on line 67.
+ 1 APPPATH\Controllers\admin\Usulan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Usulan::$akademik', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Controllers\\admin\\Usulan.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->UpdateProses()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 09:18:02 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 49.
+ 1 APPPATH\Views\admin\layout.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 49)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Mahasiswa', [], true)
+ 6 APPPATH\Controllers\admin\Mahasiswa.php(22): view('admin/Mahasiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 09:18:25 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 61.
+ 1 APPPATH\Views\admin\layout.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Mahasiswa', [], true)
+ 6 APPPATH\Controllers\admin\Mahasiswa.php(22): view('admin/Mahasiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 09:18:38 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 61.
+ 1 APPPATH\Views\admin\layout.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Mahasiswa', [], true)
+ 6 APPPATH\Controllers\admin\Mahasiswa.php(22): view('admin/Mahasiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 09:19:12 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 61.
+ 1 APPPATH\Views\admin\layout.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\admin\Dashboard.php(11): view('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 09:19:33 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 61.
+ 1 APPPATH\Views\admin\layout.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Mahasiswa', [], true)
+ 6 APPPATH\Controllers\admin\Mahasiswa.php(22): view('admin/Mahasiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 09:20:06 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 61.
+ 1 APPPATH\Views\admin\layout.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/usulanDetail', [], true)
+ 6 APPPATH\Controllers\admin\Usulan.php(124): view('admin/usulanDetail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->detail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 09:20:46 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 61.
+ 1 APPPATH\Views\admin\layout.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/mahasiswaAdd', [], true)
+ 6 APPPATH\Controllers\admin\Mahasiswa.php(28): view('admin/mahasiswaAdd')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->add()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+INFO - 2023-12-25 09:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-25 09:25:30 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 61.
+ 1 APPPATH\Views\admin\layout.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/usulanAdd', [], true)
+ 6 APPPATH\Controllers\admin\Usulan.php(36): view('admin/usulanAdd', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->add()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+INFO - 2023-12-25 09:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 09:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 09:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 09:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-25 09:37:26 --> Undefined variable $dataUsulan
+in APPPATH\Views\admin\usulanAdd.php on line 33.
+ 1 APPPATH\Views\admin\usulanAdd.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataUsulan', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\usulanAdd.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\usulanAdd.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/usulanAdd', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(37): view('admin/usulanAdd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+INFO - 2023-12-25 09:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-25 09:46:01 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 65.
+ 1 APPPATH\Views\admin\layout.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 65)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/mahasiswaEdit', [], true)
+ 6 APPPATH\Controllers\admin\Mahasiswa.php(58): view('admin/mahasiswaEdit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->edit('6')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 09:54:19 --> Undefined array key "val_kabag"
+in APPPATH\Views\admin\dataUsulan.php on line 56.
+ 1 APPPATH\Views\admin\dataUsulan.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "val_kabag"', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(27): view('admin/dataUsulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 10:00:42 --> Undefined array key "val_kabag"
+in APPPATH\Views\admin\dataUsulan.php on line 56.
+ 1 APPPATH\Views\admin\dataUsulan.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "val_kabag"', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\dataUsulan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dataUsulan', [], true)
+ 5 APPPATH\Controllers\admin\Usulan.php(27): view('admin/dataUsulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 10:50:17 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\admin\Usulan.php(114): CodeIgniter\Model->update([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 10:53:00 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\admin\Usulan.php(120): CodeIgniter\Model->update([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 10:53:41 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\admin\Usulan.php(122): CodeIgniter\Model->update([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 10:53:51 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\admin\Usulan.php(122): CodeIgniter\Model->update([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 10:54:28 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\admin\Usulan.php(132): CodeIgniter\Model->update([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 10:54:41 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\admin\Usulan.php(132): CodeIgniter\Model->update([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 10:55:32 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\admin\Usulan.php(132): CodeIgniter\Model->update([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Usulan->uploadDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+ERROR - 2023-12-25 10:56:43 --> Terjadi kesalahan saat memperbarui data: There is no data to update.
+INFO - 2023-12-25 10:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-25 10:56:58 --> Terjadi kesalahan saat memperbarui data: There is no data to update.
+INFO - 2023-12-25 10:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 10:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-25 10:59:16 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 65.
+ 1 APPPATH\Views\admin\layout.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 65)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\admin\Dashboard.php(11): view('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 10:59:45 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 65.
+ 1 APPPATH\Views\admin\layout.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 65)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\admin\Dashboard.php(14): view('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 10:59:47 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 65.
+ 1 APPPATH\Views\admin\layout.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 65)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\admin\Dashboard.php(14): view('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 10:59:47 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 65.
+ 1 APPPATH\Views\admin\layout.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 65)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\admin\Dashboard.php(14): view('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+INFO - 2023-12-25 11:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-25 11:05:49 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 65.
+ 1 APPPATH\Views\admin\layout.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 65)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/mahasiswaAdd', [], true)
+ 6 APPPATH\Controllers\admin\Mahasiswa.php(28): view('admin/mahasiswaAdd')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->add()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+CRITICAL - 2023-12-25 11:06:23 --> Undefined variable $page_title
+in APPPATH\Views\admin\layout.php on line 65.
+ 1 APPPATH\Views\admin\layout.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php', 65)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\app\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/mahasiswaAdd', [], true)
+ 6 APPPATH\Controllers\admin\Mahasiswa.php(31): view('admin/mahasiswaAdd')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->add()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+INFO - 2023-12-25 11:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-25 11:09:07 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Shiroo Neko\Pictures\mypkm\app\Controllers\admin\Mahasiswa.php(51): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->addProses()
+#10 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+#11 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Shiroo Neko\Pictures\mypkm\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Shiroo Neko\Pictures\mypkm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo...')
+#14 {main}
+CRITICAL - 2023-12-25 11:09:07 --> Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_mahasiswa` (`npm`, `nama`, `email`, `alamat`, `tgl_lahir`, `no_hp`, `password`, `status`, `dokumen`) VALUES (:npm:, :nama:, :email:, :alamat:, :tgl_lahir:, :no_hp:, :password:, :status:, :dokumen:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\admin\Mahasiswa.php(51): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Mahasiswa->addProses()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
+INFO - 2023-12-25 11:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-25 11:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

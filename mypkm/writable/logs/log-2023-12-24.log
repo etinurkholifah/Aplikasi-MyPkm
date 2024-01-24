@@ -1,0 +1,9 @@
+CRITICAL - 2023-12-24 01:14:09 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\admin\Akademik.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\/assets/images/akademik/', '1703380449_8b0c827f1bb42301c1fd')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin\Akademik->addProses()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Akademik))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Shiroo Neko\\Pictures\\mypkm\\public\\index.php')
